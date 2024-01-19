@@ -1,0 +1,33 @@
+{
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "WEATHER_API_KEY": "0e052a31b882a6068f220ab78c25fcbd"
+      }
+    },
+    "preview2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "preview3": {
+      "developmentClient": true
+    },
+    "preview4": {
+      "distribution": "internal"
+    },
+    "production": {
+      "env": {
+        "WEATHER_API_KEY": "0e052a31b882a6068f220ab78c25fcbd"
+      }
+    },
+    "test": {
+      "env": {
+        "WEATHER_API_KEY": "0e052a31b882a6068f220ab78c25fcbd"
+      }
+    }
+  }
+}
